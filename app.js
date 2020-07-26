@@ -46,7 +46,8 @@ while (canContinue) {
   for (let cpt = 0; cpt < lastStepCells.length; cpt += 1) {
     const cell = lastStepCells[cpt];
 
-    if (isSafe(cell.x + 1, cell.y)
+    if (cell.y > 0
+      && isSafe(cell.x + 1, cell.y)
       && !accessibleCells.some((el) => el.x === cell.x + 1 && el.y === cell.y)) {
       accessibleCells.push({ step, x: cell.x + 1, y: cell.y });
       hasFoundNewCell = true;

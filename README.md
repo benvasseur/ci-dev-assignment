@@ -18,4 +18,4 @@ npm run start
 
 ## How large is the area that the robot can access?
 
-Max Area: 595389 cells
+Max Area: 577813 cells
