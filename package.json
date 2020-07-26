@@ -1,0 +1,16 @@
+{
+  "name": "ci-dev-assignment",
+  "version": "1.0.0",
+  "description": "Calm Island Developer Assignment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "author": "Benjamin Vasseur",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
